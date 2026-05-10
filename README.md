@@ -1,6 +1,8 @@
 # Reinforcement Learning for Triangular Super Tic-Tac-Toe
 
 This project trains a deep reinforcement learning agent to play a custom **Super Tic-Tac-Toe** game. The game is similar to normal tic-tac-toe, but the board is arranged as a triangle of six `4 x 4` boards. The agent is trained with **PPO**, improved by **self-play**, and strengthened with a lightweight **MCTS/UCT curriculum** inspired by AlphaGo-style training.
+<img width="1510" height="598" alt="a2816041-95b4-4e49-ae1f-8f150b1a0738" src="https://github.com/user-attachments/assets/3e31d2af-e2ea-4f3b-957b-8d414be124d6" />
+
 
 ---
 
