@@ -96,7 +96,7 @@ The playable shape is handled by the environment and action mask, so the agent c
 
 ---
 
-## PPO Agent
+## PPO Agent with Actor Critic
 The PPO agent is implemented in agent.py.
 
 The network has:
