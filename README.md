@@ -153,8 +153,7 @@ This avoids a sudden difficulty jump and makes training more stable.
 
 ---
 
-## MCTS Curriculum
-File Structure
+## File Structure
 ```text
 agent.py
 ```
