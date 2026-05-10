@@ -26,3 +26,28 @@ board_offsets = {
     4: (8, 4),
     5: (8, 8),
 }
+
+Each board has size 4 x 4, so there are:
+6 boards x 16 cells = 96 possible actions
+
+---
+
+## Game Rules
+Players take turns choosing an empty square.
+
+After a player chooses a square:
+
+With probability 1/2, the piece is placed on the chosen square.
+With probability 1/2, one of the 8 adjacent squares is sampled.
+If the sampled adjacent square is outside the playable board or already occupied, the move is forfeited.
+The win conditions are:
+
+4 in a row horizontally.
+4 in a column, but at least one piece must be in a different level.
+5 in a diagonal direction.
+
+
+
+
+
+
